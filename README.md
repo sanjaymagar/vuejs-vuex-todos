@@ -4,4 +4,6 @@ TodoList app is build using vuejs as frontend technology and jsonplaceholder for
 [jsonplaceholder]('https://jsonplaceholder.typicode.com/todos' 'jsonplaceholder')
 
 ## Some snapshots
-![home]('')
+![home]('https://github.com/sanjaymagar/vuejs-vuex-todos/blob/master/src/assets/images/home.png')
+
+![Add-todos]('https://github.com/sanjaymagar/vuejs-vuex-todos/blob/master/src/assets/images/todoItem-added.png')
