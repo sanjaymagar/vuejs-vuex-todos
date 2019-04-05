@@ -1,29 +1,7 @@
-# vuejs
+# TodoList
+TodoList app is build using vuejs as frontend technology and jsonplaceholder for api, which is Fake Online REST API for Testing and Prototyping 
 
-## Project setup
-```
-npm install
-```
+[jsonplaceholder]('https://jsonplaceholder.typicode.com/todos' 'jsonplaceholder')
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Some snapshots
+![home]('')
