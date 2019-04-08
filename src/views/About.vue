@@ -1,5 +1,6 @@
 <template>
     <div class="about">
+      <Events/>
         <h3>About Section</h3>
         <p>This is vuejs crash course by Brad Traversy</p>
         <h1>Area Chart</h1>
@@ -35,6 +36,8 @@ import DrawChart from '../components/DrawChart'
 import DrawLineChart from '../components/DrawLineChart'
 import DrawAreaChart from '../components/DrawAreaChart'
 import AreaData from '../data.js'
+
+import Events from '../components/Events'
 export default {
    
     data() {
@@ -62,7 +65,8 @@ export default {
    components: {
         DrawChart,
         DrawLineChart,
-        DrawAreaChart
+        DrawAreaChart,
+        Events
     }
 };
 </script>
