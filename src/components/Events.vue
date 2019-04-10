@@ -16,6 +16,7 @@
         <div>
         <button type="text" v-on:click="counter++">Click Me</button>
         <p>{{(counter*2)> 10 ? 'Greater than 10' : 'Less than 10'}} {{counter}}</p>
+        <p>Computed: {{incCounter}}</p>
         </div>
 
     </div>
@@ -43,6 +44,35 @@ export default {
         alerMe: function() {
             alert("Alert me when click enter or space keyboard event")
         }
+    },
+    computed: {
+        incCounter: function() {
+            return this.counter++;
+        }
+    },
+    beforeCreate() {
+        this.title = "Before Create!"
+        console.log("before Created events has been consoled")
+        
+    },
+    created() {
+        this.title = "Created !"
+        console.log("events has been created")
+    },
+    beforeMount() {
+        console.log("events will be mounted")
+    },
+    mounted(){
+        console.log("events has been mounted")
+    },
+    beforeUpdate() {
+        console.log("Counter will be update")
+    },
+    beforeDestroy() {
+        console.log("Counter will be destroy")
+    },
+    destroyed() {
+        console.log("Counter has been destroyed")
     }
 }
 </script>

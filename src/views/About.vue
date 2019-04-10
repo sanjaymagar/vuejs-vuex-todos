@@ -36,7 +36,6 @@ import DrawChart from '../components/DrawChart'
 import DrawLineChart from '../components/DrawLineChart'
 import DrawAreaChart from '../components/DrawAreaChart'
 import AreaData from '../data.js'
-
 import Events from '../components/Events'
 export default {
    
@@ -66,8 +65,8 @@ export default {
         DrawChart,
         DrawLineChart,
         DrawAreaChart,
-        Events
-    }
+        Events    
+      }
 };
 </script>
 
